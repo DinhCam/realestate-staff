@@ -6,5 +6,4 @@ export const FormField = ({ name, label, type = 'text', placeholder }) => (
     <Field name={name} type={type} placeholder={placeholder} />
     <ErrorMessage className="error" component="div" name={name} />
   </label>
-  
 );
